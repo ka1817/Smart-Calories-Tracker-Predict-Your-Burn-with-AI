@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/166849594777610806/37ce319ac03d4114804dee4e62d68f85/artifacts
+end_time: 1745686588949
+entry_point_name: ''
+experiment_id: '166849594777610806'
+lifecycle_stage: active
+run_id: 37ce319ac03d4114804dee4e62d68f85
+run_name: rogue-elk-582
+run_uuid: 37ce319ac03d4114804dee4e62d68f85
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745686575407
+status: 3
+tags: []
+user_id: saipr

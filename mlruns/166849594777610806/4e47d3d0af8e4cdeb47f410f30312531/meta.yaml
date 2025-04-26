@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/166849594777610806/4e47d3d0af8e4cdeb47f410f30312531/artifacts
+end_time: 1745686751801
+entry_point_name: ''
+experiment_id: '166849594777610806'
+lifecycle_stage: active
+run_id: 4e47d3d0af8e4cdeb47f410f30312531
+run_name: big-frog-196
+run_uuid: 4e47d3d0af8e4cdeb47f410f30312531
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745686730482
+status: 3
+tags: []
+user_id: saipr

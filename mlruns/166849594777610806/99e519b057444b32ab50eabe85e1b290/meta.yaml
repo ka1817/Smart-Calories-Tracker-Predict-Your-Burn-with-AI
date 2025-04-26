@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/166849594777610806/99e519b057444b32ab50eabe85e1b290/artifacts
+end_time: 1745686547908
+entry_point_name: ''
+experiment_id: '166849594777610806'
+lifecycle_stage: active
+run_id: 99e519b057444b32ab50eabe85e1b290
+run_name: placid-shrew-947
+run_uuid: 99e519b057444b32ab50eabe85e1b290
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745686507722
+status: 3
+tags: []
+user_id: saipr

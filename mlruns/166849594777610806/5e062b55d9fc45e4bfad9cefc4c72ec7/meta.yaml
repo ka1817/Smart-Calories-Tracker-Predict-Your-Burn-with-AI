@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/166849594777610806/5e062b55d9fc45e4bfad9cefc4c72ec7/artifacts
+end_time: 1745686561717
+entry_point_name: ''
+experiment_id: '166849594777610806'
+lifecycle_stage: active
+run_id: 5e062b55d9fc45e4bfad9cefc4c72ec7
+run_name: omniscient-pig-755
+run_uuid: 5e062b55d9fc45e4bfad9cefc4c72ec7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745686548062
+status: 3
+tags: []
+user_id: saipr

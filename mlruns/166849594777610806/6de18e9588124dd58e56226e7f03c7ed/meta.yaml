@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/166849594777610806/6de18e9588124dd58e56226e7f03c7ed/artifacts
+end_time: 1745686574859
+entry_point_name: ''
+experiment_id: '166849594777610806'
+lifecycle_stage: active
+run_id: 6de18e9588124dd58e56226e7f03c7ed
+run_name: placid-ox-159
+run_uuid: 6de18e9588124dd58e56226e7f03c7ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745686561844
+status: 3
+tags: []
+user_id: saipr
