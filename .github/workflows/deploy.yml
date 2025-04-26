@@ -59,4 +59,4 @@ jobs:
           docker rm calories-burnt-app || true
           docker rmi ${{ secrets.DOCKER_USERNAME }}/calories-burnt-app:latest || true
           docker pull ${{ secrets.DOCKER_USERNAME }}/calories-burnt-app:latest
-          docker run -d --name calories-burnt-app -p 8080:8501 ${{ secrets.DOCKER_USERNAME }}/calories-burnt-app:latest
+          docker run -d --name calories-burnt-app -p 2003:8501 ${{ secrets.DOCKER_USERNAME }}/calories-burnt-app:latest

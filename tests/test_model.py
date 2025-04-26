@@ -6,7 +6,6 @@ import numpy as np
 import joblib
 from sklearn.metrics import mean_squared_error, r2_score
 
-# Add src to path to import train.py
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
 
 from train import train_model

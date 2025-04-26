@@ -2,16 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-
-# Load the trained model
-# Load the trained model
 model = joblib.load('tests/model.joblib')
 
-# App title
 st.title("🔥 Calories Burnt Prediction App")
 st.write("Enter your details below and predict your calories burnt after exercise!")
 
-# Sidebar for user input
 st.sidebar.header("Input Features")
 
 def user_input_features():
@@ -37,20 +32,16 @@ def user_input_features():
     features = pd.DataFrame(data, index=[0])
     return features
 
-# Get user input
 input_df = user_input_features()
 
-# Main panel
 st.subheader('User Input Features')
 st.write(input_df)
 
-# Predict button
 if st.button('Predict Calories Burnt 🔥'):
     prediction = model.predict(input_df)
     st.subheader('Predicted Calories Burnt')
     st.success(f"{prediction[0]:.2f} Calories")
 
-# Footer
 st.markdown("""
 ---
 Made with ❤️ using Streamlit
