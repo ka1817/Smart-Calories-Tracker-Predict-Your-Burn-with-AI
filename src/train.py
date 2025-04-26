@@ -6,9 +6,12 @@ from sklearn.metrics import mean_squared_error, r2_score
 import mlflow
 import mlflow.sklearn
 import joblib
+import os
+
+file_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'calories.csv')
 
 def train_model():
-    df = pd.read_csv("C:\\Users\\saipr\\calories_burnt_prediction\\data\\calories.csv")
+    df = pd.read_csv(file_path)
     df.drop('User_ID',axis=1,inplace=True)
     df['Gender'] = df['Gender'].map({'male': 1, 'female': 0})
     
