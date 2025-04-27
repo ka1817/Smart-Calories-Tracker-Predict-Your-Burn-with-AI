@@ -115,6 +115,8 @@ http://localhost:5000
 - **Pranav Reddy** ([@pranavreddy123](https://github.com/ka1817))
 
 ---
+![image alt](https://github.com/ka1817/Smart-Calories-Tracker-Predict-Your-Burn-with-AI/blob/52fe150d8330706fd9fcd760f45a4c2e1ea99ab5/project_outlook.png)
+---
 
 ## 📜 License
 
