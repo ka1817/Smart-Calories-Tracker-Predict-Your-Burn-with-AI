@@ -13,7 +13,7 @@ from train import train_model
 
 @pytest.fixture(scope="module")
 def trained_model():
-    # Train model once for all tests
+    
     r2 = train_model()
     model = joblib.load('model.joblib')
     return r2, model
