@@ -44,5 +44,5 @@ if st.button('Predict Calories Burnt 🔥'):
 
 st.markdown("""
 ---
-Made with ❤️ using Streamlit
+Developed By Pranav Reddy
 """)
