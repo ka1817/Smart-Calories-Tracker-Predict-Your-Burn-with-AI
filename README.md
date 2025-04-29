@@ -55,12 +55,12 @@ docker build -t pranavreddy123/calories-burnt-app:latest .
 
 ### 3. Run Docker Container 🚀
 ```bash
-docker run -d -p 2003:8501 pranavreddy123/calories-burnt-app:latest
+docker run -d -p 2001:2001 pranavreddy123/calories-burnt-app:latest
 ```
 
 Then, open your browser at:
 ```
-http://localhost:2003
+http://localhost:2001
 ```
 
 ---
@@ -78,9 +78,9 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-EXPOSE 8501
+EXPOSE 2001
 
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "app.py", "--server.port=2001", "--server.address=0.0.0.0"]
 ```
 
 
