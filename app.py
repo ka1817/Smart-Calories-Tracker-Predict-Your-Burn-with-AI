@@ -44,5 +44,5 @@ if st.button('Predict Calories Burnt 🔥'):
 
 st.markdown("""
 ---
-Developed By Katta Pranav Reddy 1817
+Developed By 1 Katta Pranav Reddy 1817
 """)
