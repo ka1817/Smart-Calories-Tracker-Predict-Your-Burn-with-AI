@@ -37,12 +37,12 @@ input_df = user_input_features()
 st.subheader('User Input Features')
 st.write(input_df)
 
-if st.button('Predict Calories Burnt 🔥'):
+if st.button('Predict Calories Burnt1 🔥'):
     prediction = model.predict(input_df)
     st.subheader('Predicted Calories Burnt')
     st.success(f"{prediction[0]:.2f} Calories")
 
 st.markdown("""
 ---
-Developed By 1 Katta Pranav Reddy 1817
+Developed By 1 Katta Pranav Reddy King 1817
 """)
